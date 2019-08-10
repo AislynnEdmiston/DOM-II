@@ -4,7 +4,7 @@
 /*  
  mouseover
  keydown
- wheel
+ pointer
  drag / drop
  load
  focus
@@ -13,6 +13,7 @@
  select
  dblclick */
 
+//  sign up
 const signUpBtn = document.querySelectorAll(".btn");
 
 function signUp(){
@@ -25,3 +26,9 @@ function signUp(){
 signUpBtn.forEach(function(element){
     element.addEventListener("click", signUp);
 });
+
+// nav
+
+const nav = document.querySelectorAll('nav a');
+
+nav.forEach(event => event.addEventListener('mouseenter', () => event.style.color = 'blue'));
