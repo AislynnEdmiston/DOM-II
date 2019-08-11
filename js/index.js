@@ -46,4 +46,11 @@ para.forEach(e => e.addEventListener('mouseleave', () => e.style.color = 'purple
 //  h4 mousedown event 5
 
 const h4 = document.querySelectorAll('h4');
-h4.forEach(e => e.addEventListener('mousedown', () => e.style.color = 'green'))
+h4.forEach(e => e.addEventListener('mousedown', () => e.style.color = 'green'));
+
+// img dblclick event 6
+
+const img = document.querySelectorAll('img');
+console.log(img);
+img.forEach(e => e.addEventListener('dblclick', () => e.style.border = '6px solid red'));
+
