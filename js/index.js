@@ -51,6 +51,11 @@ h4.forEach(e => e.addEventListener('mousedown', () => e.style.color = 'green'));
 // img dblclick event 6
 
 const img = document.querySelectorAll('img');
-console.log(img);
+// console.log(img);
 img.forEach(e => e.addEventListener('dblclick', () => e.style.border = '6px solid red'));
 
+// event 7
+
+const logo = document.querySelector('.logo-heading');
+// console.log(logo);
+logo.addEventListener('mouseup', e => e.target.style.border = '6px dashed orchid');

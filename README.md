@@ -40,7 +40,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [X] `mouseleave`
 	* [X] `mousedown`
 	* [X] `dblclick`
-	* [ ] ``
+	* [ ] `mouseup`
 	* [ ] ``
 	* [ ] ``
 	* [ ] ``
